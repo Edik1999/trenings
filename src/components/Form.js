@@ -34,7 +34,7 @@ const Form = ({onAdd}) => {
 
             <label htmlFor="date">
                 Дата (ДД.ММ.ГГ)
-                <input type="text" className="trenings__form-input" onChange={dateInputChange} value={inputDate.value}/>
+                <input type="date" className="trenings__form-input date" onChange={dateInputChange} value={inputDate.value}/>
             </label>
             
             <label htmlFor="distance">

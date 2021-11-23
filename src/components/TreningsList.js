@@ -15,7 +15,7 @@ const TreningsList = ({data, onRemove}) => {
     return (
         <>
             <div className="trenings__titles">
-                <span>Дата (ДД.ММ.ГГ)</span>
+                <span>Дата (ГГ.ММ.ДД)</span>
                 <span>Пройдено км</span>
                 <span>Действия</span>
             </div>
